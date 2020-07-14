@@ -78,6 +78,12 @@ sudo apt-get update
 sudo apt-get install libblas-dev liblapack-dev libfftw3-dev gfortran
 ```
 
+from clairevalva: with only minor flag changes, one can install gcc, openblas, lapack, and fftw using homebrew.
+
+``` 
+bash brew install LIBNAME
+```
+
 ## 3. Compile the EnKF_sampling library
 ```bash
 cd EnKF_sampling/lib
